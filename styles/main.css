@@ -36,6 +36,52 @@ h1{
 	margin-top: 6%;
 	font-size: 3.5vw;
 	color: white;
-	text-shadow: 0px 2px 7px navy;
+	text-shadow: 0px 2px 7px #12889B;
 	letter-spacing: 4px;
+}
+
+h3{
+	-webkit-animation: FadeInUp .9s ease-out;
+	-moz-animation: FadeInUp .9s ease-out;
+	-ms-animation: FadeInUp .9s ease-out;
+	-o-animation: FadeInUp .9s ease-out;
+	animation: FadeInUp .9s ease-out;
+	text-align: center;
+	font-family: "Bahn";
+	font-size: 1.5vw;
+	color: white;
+	margin-top: -25px;
+	text-shadow: 0px 2px 4px #12889B;
+	letter-spacing: 4px;
+}
+
+#langInput{
+	height: 25px;
+	border-radius: 10px;
+	font-size: 1.5vw;
+	padding: 5px;
+}
+
+#translateBtn{
+	background-color: white;
+	color: navy;
+	font-family: "Bahn";
+	font-size: 1.5vw;
+	padding: 5px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#translateBtn:hover{
+	background-color: navy;
+	color: white;
+	cursor: pointer;
+}
+
+#photos{
+	margin-top: 5%;
+	width:100%;
+	font-size: 1.5vw;
+	font-family: "Bahn";
+	color: white;
 }
